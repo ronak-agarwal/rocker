@@ -2,7 +2,7 @@
 
 This project is purely around building basic understanding around kernel cgroups and namespace. It simply runs a command in a container. It uses the cgcreate, cgexec, cgset, cgdelete, unshare, and chroot commands to initialize the container.
 
-###Prerequisites
+### Prerequisites
 
 The following are required.
 
@@ -39,7 +39,7 @@ Add netnamespace
  - $ sudo umount centos7/
  - $ rm -rf centos7 squash root CentOS-7.0-1406-x86_64-DVD.iso
 
-###Note
+### Note
 
 Currently it uses busybox but can be any other OS. Still need to add network/IP associated.
 
